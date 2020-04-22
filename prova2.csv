@@ -1,0 +1,14 @@
+PzId,Age,Sex,Diabetes,Hypercholesterolemia,Hypertension,Smoking,MyocardialInfarction,MyocardialRevascularization,PTCA,CABG,Sbp,Hr,Creatinine,Enrolment,Killip,CCS,ST_SegmentDeviation,SignsOfHeartFailure,Tn_I>0.1,CardiacArrestAdmission,Aspirin,Angina
+0,43,Male,no,yes,yes,yes,yes,no,no,no,204,83,1,UA,class4,III/IV,yes,no,yes,yes,yes,yes
+1,46,Female,no,yes,yes,yes,yes,yes,no,no,125,73,0,UA,class4,III/IV,no,no,yes,yes,yes,yes
+2,46,Male,no,no,yes,yes,no,yes,no,no,153,75,1,UA,class2,III/IV,yes,yes,no,yes,no,yes
+3,55,Female,yes,no,yes,yes,yes,yes,yes,yes,97,65,0,UA,class1,III/IV,yes,no,yes,no,no,no
+4,43,Female,yes,yes,yes,no,yes,yes,no,no,138,107,3,UA,class1,I/II,yes,no,yes,yes,no,yes
+5,49,Female,no,yes,no,no,yes,no,yes,yes,120,82,3,UA,class3,I/II,yes,yes,no,yes,yes,no
+6,71,Female,no,no,no,no,no,yes,yes,yes,159,85,1,MI,class4,III/IV,no,no,yes,no,yes,no
+7,60,Male,yes,no,no,yes,no,no,yes,yes,155,79,1,UA,class3,I/II,yes,yes,no,yes,yes,yes
+8,34,Female,yes,no,yes,no,yes,no,no,yes,124,66,1,UA,class2,I/II,no,yes,yes,no,no,yes
+9,71,Female,no,yes,yes,no,no,yes,yes,yes,111,92,0,MI,class2,III/IV,yes,yes,no,no,no,no
+10,70,Female,yes,yes,yes,yes,yes,no,yes,no,133,43,1,UA,class3,I/II,no,no,yes,yes,no,yes
+11,67,Female,yes,no,no,yes,yes,yes,no,yes,127,56,1,UA,class1,I/II,no,yes,no,no,no,yes
+12,50,Male,yes,no,yes,yes,yes,yes,yes,yes,126,63,1,UA,class4,III/IV,yes,yes,yes,no,yes,yes

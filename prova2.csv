@@ -1,0 +1,14 @@
+PzId,Age,SEX,Diabetes,Hypercholest,Hyperten,Smoking,MI,MR,PTCA,CABG,SBP,HR,Creat,Enrl,KILLIP,CCS,ST SegmDev,HF (signs),TN,CAA,Aspirin,Angina
+0,59,Female,yes,no,no,yes,no,no,yes,no,112,36,1,UA,class2,III/IV,yes,yes,no,no,no,no
+1,56,Female,no,yes,yes,yes,yes,no,no,no,141,84,3,MI,class1,I/II,no,no,yes,yes,no,yes
+2,65,Female,yes,yes,yes,yes,yes,no,no,yes,150,73,3,MI,class1,I/II,no,yes,yes,no,no,no
+3,67,Female,yes,yes,yes,yes,no,yes,no,yes,92,53,2,UA,class2,III/IV,no,yes,yes,no,yes,yes
+4,55,Male,no,yes,yes,no,no,no,no,no,142,43,0,UA,class2,III/IV,no,yes,no,no,no,no
+5,84,Male,no,no,yes,no,yes,yes,yes,yes,98,93,2,MI,class3,I/II,no,yes,no,no,yes,no
+6,58,Female,no,no,no,no,no,yes,yes,yes,140,52,0,UA,class4,I/II,yes,no,no,yes,yes,no
+7,79,Female,yes,no,yes,no,yes,no,no,yes,131,95,0,UA,class2,I/II,yes,yes,yes,yes,yes,yes
+8,48,Male,yes,no,no,no,no,no,yes,no,133,93,3,UA,class3,I/II,no,yes,no,yes,no,yes
+9,54,Female,no,yes,no,yes,no,yes,no,no,147,77,1,MI,class1,III/IV,no,yes,yes,yes,no,yes
+10,53,Female,yes,yes,yes,yes,yes,no,yes,yes,112,87,0,UA,class4,III/IV,yes,no,yes,no,yes,yes
+11,53,Male,yes,yes,yes,yes,no,yes,yes,yes,169,61,0,UA,class1,I/II,no,yes,yes,no,yes,no
+12,57,Male,yes,yes,yes,no,yes,yes,yes,yes,138,78,0,UA,class1,I/II,yes,no,no,yes,yes,yes

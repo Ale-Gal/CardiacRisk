@@ -6,7 +6,7 @@ def grace(patient_data, risk_factors, risk_threshold=145,debug=False):
         factor = risk_factors[i]
          
         if factor == "Age":
-            age = patient_data[i]    # patient_data['Age'][j] ??
+            age = patient_data[factor]    # patient_data['Age'][j] ??
             if age >= 40 and age <= 49:
                 risk += 15
             elif age >= 50 and age <= 59:
@@ -21,7 +21,7 @@ def grace(patient_data, risk_factors, risk_threshold=145,debug=False):
                 risk += 80       
                     
         elif factor == "HR":
-            hr = patient_data[i]
+            hr = patient_data[factor]
             if hr >= 70 and hr <= 89:
                 risk += 6
             elif hr >= 90 and hr <= 109:
@@ -34,7 +34,7 @@ def grace(patient_data, risk_factors, risk_threshold=145,debug=False):
                 risk += 41
 
         elif factor == "SBP": 
-            sbp = patient_data['SBP'][j]
+            sbp = patient_data[factor]
             if sbp < 80:
                 risk += 57
             elif sbp >= 80 and sbp <= 99: 
@@ -49,7 +49,7 @@ def grace(patient_data, risk_factors, risk_threshold=145,debug=False):
                 risk += 10
                 
         elif factor == "Creat":
-            creatinine = patient_data[i]
+            creatinine = patient_data[factor]
             if creatinine >= 0 and creatinine <= 0.39:
                 risk += 2
             elif creatinine >= 0.4 and creatinine <= 0.79:
@@ -66,7 +66,7 @@ def grace(patient_data, risk_factors, risk_threshold=145,debug=False):
                 risk += 31
 
         elif factor == "KILLIP":
-            killip = patient_data[i]
+            killip = patient_data[factor]
             if killip == 2:
                 risk += 33
             elif killip == 3:
@@ -75,15 +75,15 @@ def grace(patient_data, risk_factors, risk_threshold=145,debug=False):
                 risk += 100
             
         elif factor == "CAA":
-            if patient_data[i] == 1:
+            if patient_data[factor] == 1:
                 risk += 98
             
         elif factor == "TN":
-            if patient_data[i] == 1:
+            if patient_data[factor] == 1:
                 risk += 54
             
         elif factor == "DEP ST":
-            if patient_data[i] == 1:
+            if patient_data[factor] == 1:
                 risk += 67
     
     if debug:
